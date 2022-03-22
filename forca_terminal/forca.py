@@ -18,8 +18,6 @@ def main():
         res = fn.get_chute(palpites, opcoes)
         palpites, opcoes = res[0], res[1]
         life -= 1 if palpites[-1] not in ans else 0
-        
-
 
 if __name__ == "__main__":
     main()

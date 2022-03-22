@@ -26,7 +26,6 @@ def check_endgame(palpites: list, ans: list) -> bool:
     return True
 
 def build_forca(ans: list, life: int, palpites: list) -> None:
-    print(life)
     print(" ___")
     print(" |  |")
     print(" |  O") if life < 6 else print(" |  ")
